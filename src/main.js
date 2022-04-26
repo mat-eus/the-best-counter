@@ -8,7 +8,7 @@ Vue.config.productionTip = false;
 
 new Vue({
   router,
-  store,
+  store, // passar a store para o Vue reconhecer
   vuetify,
   render: (h) => h(App),
 }).$mount("#app");

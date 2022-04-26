@@ -1,15 +1,15 @@
-<template>
-  <hello-world />
+<template lang="pug">
+  main-content
 </template>
 
 <script>
-import HelloWorld from "../components/HelloWorld";
+import MainContent from "../components/MainContent";
 
 export default {
   name: "HomeView",
 
   components: {
-    HelloWorld,
+    MainContent,
   },
 };
 </script>
